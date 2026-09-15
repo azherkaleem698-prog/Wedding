@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="100%" height="100%">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F3E3A5" />
+      <stop offset="50%" stop-color="#E5C76B" />
+      <stop offset="100%" stop-color="#C9A227" />
+    </linearGradient>
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="75%">
+      <stop offset="0%" stop-color="#141414" />
+      <stop offset="100%" stop-color="#050505" />
+    </radialGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="6" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="100%" height="100%" fill="url(#bgGrad)" />
+  <rect x="20" y="20" width="760" height="960" fill="none" stroke="url(#goldGrad)" stroke-width="2" opacity="0.6" />
+  <rect x="35" y="35" width="730" height="930" fill="none" stroke="url(#goldGrad)" stroke-width="1" opacity="0.3" />
+
+  <g stroke="url(#goldGrad)" stroke-width="2" fill="none">
+    <path d="M40 90 L40 40 L90 40" />
+    <circle cx="55" cy="55" r="4" fill="url(#goldGrad)" />
+    <path d="M760 90 L760 40 L710 40" />
+    <circle cx="745" cy="55" r="4" fill="url(#goldGrad)" />
+    <path d="M40 910 L40 960 L90 960" />
+    <circle cx="55" cy="945" r="4" fill="url(#goldGrad)" />
+    <path d="M760 910 L760 960 L710 960" />
+    <circle cx="745" cy="945" r="4" fill="url(#goldGrad)" />
+  </g>
+
+  <path d="M 120 900 V 450 Q 120 200 400 120 Q 680 200 680 450 V 900 Z" fill="none" stroke="url(#goldGrad)" stroke-width="3" opacity="0.8" filter="url(#glow)"/>
+  <path d="M 140 880 V 460 Q 140 220 400 145 Q 660 220 660 460 V 880 Z" fill="none" stroke="url(#goldGrad)" stroke-width="1" opacity="0.4"/>
+
+  <path d="M 400 180 Q 420 220 400 240 Q 380 220 400 180 Z" fill="url(#goldGrad)" />
+  <circle cx="400" cy="170" r="5" fill="url(#goldGrad)" />
+
+  <circle cx="400" cy="480" r="140" fill="#0A0A0A" stroke="url(#goldGrad)" stroke-width="2" filter="url(#glow)"/>
+  <circle cx="400" cy="480" r="150" fill="none" stroke="url(#goldGrad)" stroke-width="1" stroke-dasharray="4 8" opacity="0.7"/>
+
+  <text x="350" y="505" font-family="'Great Vibes', 'Parisienne', cursive" font-size="110" fill="url(#goldGrad)" text-anchor="middle" filter="url(#glow)">B</text>
+  <text x="400" y="525" font-family="'Cormorant Garamond', serif" font-size="45" fill="#E5C76B" text-anchor="middle">&amp;</text>
+  <text x="450" y="505" font-family="'Great Vibes', 'Parisienne', cursive" font-size="110" fill="url(#goldGrad)" text-anchor="middle" filter="url(#glow)">S</text>
+
+  <text x="400" y="680" font-family="'Cormorant Garamond', serif" font-size="34" font-weight="600" letter-spacing="8" fill="url(#goldGrad)" text-anchor="middle">BISMA &amp; SARIM</text>
+  <text x="400" y="730" font-family="'Montserrat', sans-serif" font-size="18" letter-spacing="6" fill="#F5F1E6" opacity="0.8" text-anchor="middle">THE WEDDING CELEBRATION</text>
+  <line x1="300" y1="770" x2="500" y2="770" stroke="url(#goldGrad)" stroke-width="1.5" />
+  <text x="400" y="810" font-family="'Cormorant Garamond', serif" font-size="22" letter-spacing="4" fill="#E5C76B" text-anchor="middle">12 • 10 • 2026</text>
+</svg>

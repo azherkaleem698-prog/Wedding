@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F3E3A5" />
+      <stop offset="50%" stop-color="#E5C76B" />
+      <stop offset="100%" stop-color="#C9A227" />
+    </linearGradient>
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="75%">
+      <stop offset="0%" stop-color="#141414" />
+      <stop offset="100%" stop-color="#050505" />
+    </radialGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="100%" height="100%" fill="url(#bgGrad)" />
+  <rect x="25" y="25" width="750" height="750" fill="none" stroke="url(#goldGrad)" stroke-width="2" opacity="0.6" />
+
+  <!-- Welcoming Family Ornament -->
+  <g transform="translate(400, 360)" fill="none" stroke="url(#goldGrad)" stroke-width="1.8" filter="url(#glow)">
+    <circle r="200" stroke-width="1" opacity="0.4" />
+    <circle r="170" stroke-dasharray="2 6" />
+
+    <path d="M-140,0 C-140,-100 0,-140 0,-140 C0,-140 140,-100 140,0 C140,100 0,140 0,140 C0,140 -140,100 -140,0 Z" stroke-width="2" />
+    <path d="M0,-140 C-100,-140 -140,0 -140,0 C-140,0 -100,140 0,140 C100,140 140,0 140,0 C140,0 100,-140 0,-140 Z" stroke-width="2" />
+
+    <text x="0" y="-10" font-family="'Parisienne', cursive" font-size="46" fill="url(#goldGrad)" stroke="none" text-anchor="middle">Naeems Family</text>
+    <text x="0" y="30" font-family="'Cormorant Garamond', serif" font-size="18" fill="#F5F1E6" stroke="none" letter-spacing="4" text-anchor="middle">AWAITING TO WELCOME</text>
+  </g>
+
+  <text x="400" y="700" font-family="'Cormorant Garamond', serif" font-size="22" letter-spacing="6" fill="url(#goldGrad)" text-anchor="middle">WITH HEARTOF FULL LOVE &amp; GRATITUDE</text>
+</svg>

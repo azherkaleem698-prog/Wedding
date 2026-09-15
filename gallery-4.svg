@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="100%" height="100%">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F3E3A5" />
+      <stop offset="50%" stop-color="#E5C76B" />
+      <stop offset="100%" stop-color="#C9A227" />
+    </linearGradient>
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="75%">
+      <stop offset="0%" stop-color="#181818" />
+      <stop offset="100%" stop-color="#050505" />
+    </radialGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="100%" height="100%" fill="url(#bgGrad)" />
+  <rect x="25" y="25" width="1150" height="650" fill="none" stroke="url(#goldGrad)" stroke-width="2" opacity="0.6" />
+
+  <!-- Dual Islamic Arches -->
+  <g stroke="url(#goldGrad)" fill="none" stroke-width="2" filter="url(#glow)">
+    <path d="M 150 600 V 280 Q 150 120 350 70 Q 550 120 550 280 V 600 Z" opacity="0.7"/>
+    <path d="M 650 600 V 280 Q 650 120 850 70 Q 1050 120 1050 280 V 600 Z" opacity="0.7"/>
+
+    <!-- Crescent Moon & Stars Above -->
+    <path d="M 600 80 Q 625 110 600 130 Q 580 110 600 80 Z" fill="url(#goldGrad)" />
+    <circle cx="600" cy="65" r="4" fill="url(#goldGrad)" />
+  </g>
+
+  <!-- Left Side: Bride Name Calligraphy Styling -->
+  <text x="350" y="320" font-family="'Great Vibes', 'Parisienne', cursive" font-size="75" fill="url(#goldGrad)" text-anchor="middle" filter="url(#glow)">Bisma Kaleem</text>
+  <text x="350" y="380" font-family="'Cormorant Garamond', serif" font-size="20" letter-spacing="4" fill="#F5F1E6" text-anchor="middle">THE BRIDE</text>
+
+  <!-- Center Heart & Crescent Connector -->
+  <circle cx="600" cy="340" r="45" fill="#0A0A0A" stroke="url(#goldGrad)" stroke-width="2" />
+  <text x="600" y="352" font-family="'Cormorant Garamond', serif" font-size="32" fill="url(#goldGrad)" text-anchor="middle">&amp;</text>
+
+  <!-- Right Side: Groom Name Calligraphy Styling -->
+  <text x="850" y="320" font-family="'Great Vibes', 'Parisienne', cursive" font-size="75" fill="url(#goldGrad)" text-anchor="middle" filter="url(#glow)">Sarim Ismail</text>
+  <text x="850" y="380" font-family="'Cormorant Garamond', serif" font-size="20" letter-spacing="4" fill="#F5F1E6" text-anchor="middle">THE GROOM</text>
+
+  <!-- Bottom Details -->
+  <text x="600" y="520" font-family="'Cormorant Garamond', serif" font-size="28" font-weight="600" letter-spacing="6" fill="url(#goldGrad)" text-anchor="middle">AL-HABIB BANQUET • KARACHI</text>
+  <text x="600" y="565" font-family="'Montserrat', sans-serif" font-size="16" letter-spacing="4" fill="#E5C76B" text-anchor="middle">MONDAY, 12 OCTOBER 2026</text>
+</svg>

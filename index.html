@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="With the blessings of their families, Bisma Kaleem and Sarim Ismail invite you to celebrate their wedding on Monday, 12 October 2026."
+    />
+    <meta property="og:title" content="Bisma &amp; Sarim — Digital Islamic Wedding Invitation" />
+    <meta
+      property="og:description"
+      content="With the blessings of their families, Bisma Kaleem and Sarim Ismail invite you to celebrate their wedding on Monday, 12 October 2026 at Al-Habib Banquet (A), Karachi."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" content="#050505" />
+    <title>Bisma &amp; Sarim — Luxury Wedding Invitation</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Great+Vibes&family=Montserrat:wght@300;400;500;600;700&family=Parisienne&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Full-Screen Interactive Opening Invitation Envelope Screen -->
+    <div id="openingScreen" class="opening-screen" role="dialog" aria-modal="true" aria-label="Digital Wedding Invitation Envelope">
+      <div class="opening-backdrop"></div>
+      <div class="opening-particles" id="openingParticles" aria-hidden="true"></div>
+
+      <div class="invitation-card">
+        <div class="card-ornament top-left" aria-hidden="true"></div>
+        <div class="card-ornament top-right" aria-hidden="true"></div>
+        <div class="card-ornament bottom-left" aria-hidden="true"></div>
+        <div class="card-ornament bottom-right" aria-hidden="true"></div>
+
+        <div class="card-inner-frame">
+          <p class="bismillah-small">بِسْمِ ٱللّٰهِ الرَّحْمٰنِ الرَّحِيم</p>
+          <div class="emblem-monogram">
+            <span>B</span>
+            <small>&amp;</small>
+            <span>S</span>
+          </div>
+
+          <p class="invitation-small">YOU ARE CORDIALLY INVITED</p>
+
+          <div class="invitation-names-preview">
+            <span class="preview-name">Bisma Kaleem</span>
+            <span class="preview-and">&amp;</span>
+            <span class="preview-name">Sarim Ismail</span>
+          </div>
+
+          <div class="invitation-divider">
+            <span class="diamond">◆</span>
+          </div>
+
+          <button class="open-btn" id="openInvitationBtn" type="button">
+            <span class="btn-sparkle" aria-hidden="true">✨</span>
+            <span class="btn-text">OPEN INVITATION</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Website Content Shell -->
+    <div class="page-shell">
+      <!-- Background Ambient Particle Layer -->
+      <div class="gold-particles" aria-hidden="true"></div>
+      <div class="ambient-glow" aria-hidden="true"></div>
+
+      <!-- Header Navigation Bar -->
+      <header class="site-header">
+        <nav class="nav">
+          <a class="brand" href="#home" aria-label="Bisma &amp; Sarim Wedding Home">
+            <span class="brand-monogram">B&amp;S</span>
+            <span class="brand-text">Bisma &amp; Sarim</span>
+          </a>
+
+          <button class="nav-toggle" id="navToggle" aria-label="Toggle Navigation Menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+
+          <div class="nav-menu" id="navMenu">
+            <a href="#home">HOME</a>
+            <a href="#invitation">INVITATION</a>
+            <a href="#program">PROGRAM</a>
+            <a href="#venue">VENUE</a>
+            <a href="#gallery">GALLERY</a>
+            <a href="#rsvp">RSVP</a>
+          </div>
+        </nav>
+      </header>
+
+      <main>
+        <!-- HERO SECTION -->
+        <section id="home" class="hero section">
+          <div class="hero-content wrapper">
+            <div class="hero-header-ornament" aria-hidden="true">
+              <svg viewBox="0 0 400 60" class="arch-svg">
+                <path d="M0,30 Q200,0 400,30 M100,30 Q200,10 300,30" fill="none" stroke="url(#goldGradHero)" stroke-width="1.5"/>
+                <defs>
+                  <linearGradient id="goldGradHero" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" stop-color="transparent"/>
+                    <stop offset="50%" stop-color="#E5C76B"/>
+                    <stop offset="100%" stop-color="transparent"/>
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+
+            <p class="bismillah-title">In the Name of Allah, the Most Merciful, the Most Compassionate</p>
+            <h1 class="section-title showcase">WEDDING INVITATION</h1>
+
+            <div class="names-wrap">
+              <div class="names-block">
+                <h2 class="names-label bride-name">Bisma Kaleem</h2>
+              </div>
+              <div class="with-badge">
+                <span class="line-left"></span>
+                <span class="with-text">WITH</span>
+                <span class="line-right"></span>
+              </div>
+              <div class="names-block">
+                <h2 class="names-label groom-name">Sarim Ismail</h2>
+              </div>
+            </div>
+
+            <div class="parent-line">
+              <span class="parent-item"><small>D/O</small> Muhammad Kaleem</span>
+              <span class="separator-dot" aria-hidden="true">•</span>
+              <span class="parent-item"><small>S/O</small> Muhammad Ismail</span>
+            </div>
+
+            <div class="date-badge">
+              <span class="calendar-icon" aria-hidden="true">📅</span>
+              <p class="date-line">Monday, 12 October 2026</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ISLAMIC DUA & VERSE SECTION -->
+        <section id="invitation" class="islamic section reveal">
+          <div class="wrapper section-inner">
+            <div class="section-heading centered">
+              <p class="eyebrow">Islamic Blessing</p>
+              <h2 class="bismillah-arabic">بِسْمِ ٱللّٰهِ الرَّحْمٰنِ الرَّحِيم</h2>
+            </div>
+            
+            <div class="dua-box card-surface">
+              <div class="dua-ornament top-center" aria-hidden="true"></div>
+              
+              <p class="arabic-verse">
+                “بَارَكَ ٱللّٰهُ لَكُمَا وَبَارَكَ عَلَيْكُمَا وَجَمَعَ بَيْنَكُمَا فِي خَيْرٍ”
+              </p>
+              
+              <p class="translation">
+                “May Allah bless you both, shower His blessings upon you, and join you in goodness.”
+              </p>
+
+              <div class="divider-ornament" aria-hidden="true">
+                <span>✦</span>
+                <span class="gold-line"></span>
+                <span>✦</span>
+              </div>
+
+              <p class="arabic-verse secondary-verse">
+                “وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَاجًا لِّتَسْكُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً”
+              </p>
+
+              <p class="translation">
+                “And among His signs is that He created for you mates from among yourselves, that you may find tranquility in them; and He placed between you affection and mercy.”
+                <span class="surah-ref">(Surah Ar-Rum 30:21)</span>
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- INVITATION MESSAGE SECTION -->
+        <section class="invitation-message section reveal">
+          <div class="wrapper section-inner">
+            <div class="section-heading centered">
+              <p class="eyebrow">Personal Invitation</p>
+              <h2>JOIN OUR CELEBRATION</h2>
+            </div>
+
+            <div class="invitation-note card-surface">
+              <div class="corner-frame top-l"></div>
+              <div class="corner-frame top-r"></div>
+              <div class="corner-frame bottom-l"></div>
+              <div class="corner-frame bottom-r"></div>
+
+              <p class="invitation-bismillah">In the Name of Allah, the Most Beneficent and the Most Merciful</p>
+
+              <p class="hosts-title">Mr. &amp; Mrs. Muhammad Kaleem</p>
+
+              <p class="invitation-body-text">
+                Request the honour of your presence &amp; blessings at the
+              </p>
+
+              <h2 class="ceremony-title">WEDDING CEREMONY</h2>
+
+              <p class="invitation-body-text">of their beloved daughter</p>
+
+              <p class="couple-highlight bride">Bisma Kaleem</p>
+              <p class="with-connector">with</p>
+              <p class="couple-highlight groom">Sarim Ismail</p>
+
+              <div class="parent-line compact">
+                <span>D/O Muhammad Kaleem</span>
+                <span class="amp-symbol">&amp;</span>
+                <span>S/O Muhammad Ismail</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- COUNTDOWN SECTION -->
+        <section class="countdown section reveal">
+          <div class="wrapper">
+            <div class="countdown-header">
+              <p class="eyebrow">Counting Down The Moments</p>
+              <h2>OUR WEDDING DAY</h2>
+            </div>
+
+            <div class="countdown-grid" id="countdown">
+              <div class="time-box">
+                <span class="value" id="days">00</span>
+                <span class="label">DAYS</span>
+              </div>
+              <div class="time-box">
+                <span class="value" id="hours">00</span>
+                <span class="label">HOURS</span>
+              </div>
+              <div class="time-box">
+                <span class="value" id="minutes">00</span>
+                <span class="label">MINUTES</span>
+              </div>
+              <div class="time-box">
+                <span class="value" id="seconds">00</span>
+                <span class="label">SECONDS</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- WEDDING PROGRAM SECTION -->
+        <section id="program" class="program section reveal">
+          <div class="wrapper section-inner">
+            <div class="section-heading centered">
+              <p class="eyebrow">Event Schedule</p>
+              <h2>THE WEDDING PROGRAM</h2>
+            </div>
+
+            <div class="timeline" aria-label="Wedding program timeline">
+              <article class="timeline-item">
+                <div class="timeline-number">01</div>
+                <div class="timeline-content">
+                  <div class="event-icon-badge">
+                    <svg viewBox="0 0 24 24" class="event-svg" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                    </svg>
+                  </div>
+                  <div class="event-meta">
+                    <h3>ARRIVAL</h3>
+                    <p class="event-time">08:00 PM</p>
+                  </div>
+                </div>
+              </article>
+
+              <article class="timeline-item">
+                <div class="timeline-number">02</div>
+                <div class="timeline-content">
+                  <div class="event-icon-badge">
+                    <svg viewBox="0 0 24 24" class="event-svg" fill="none" stroke="currentColor" stroke-width="2">
+                      <circle cx="12" cy="12" r="9"/>
+                      <path d="M12 6v6l4 2"/>
+                    </svg>
+                  </div>
+                  <div class="event-meta">
+                    <h3>NIKAH</h3>
+                    <p class="event-time">09:00 PM</p>
+                  </div>
+                </div>
+              </article>
+
+              <article class="timeline-item">
+                <div class="timeline-number">03</div>
+                <div class="timeline-content">
+                  <div class="event-icon-badge">
+                    <svg viewBox="0 0 24 24" class="event-svg" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8z"/>
+                    </svg>
+                  </div>
+                  <div class="event-meta">
+                    <h3>DINNER</h3>
+                    <p class="event-time">10:00 PM</p>
+                  </div>
+                </div>
+              </article>
+
+              <article class="timeline-item">
+                <div class="timeline-number">04</div>
+                <div class="timeline-content">
+                  <div class="event-icon-badge">
+                    <svg viewBox="0 0 24 24" class="event-svg" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l8.72-8.72 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                    </svg>
+                  </div>
+                  <div class="event-meta">
+                    <h3>RUKHSATI</h3>
+                    <p class="event-time">11:00 PM</p>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <!-- VENUE SECTION -->
+        <section id="venue" class="venue section reveal">
+          <div class="wrapper section-inner">
+            <div class="section-heading centered">
+              <p class="eyebrow">Location Details</p>
+              <h2>THE VENUE</h2>
+            </div>
+
+            <div class="venue-card card-surface">
+              <div class="venue-icon-wrapper">
+                <svg viewBox="0 0 24 24" class="map-pin-icon" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                  <circle cx="12" cy="10" r="3"/>
+                </svg>
+              </div>
+
+              <div class="venue-details">
+                <h3>AL-HABIB BANQUET (A)</h3>
+                <p class="venue-address">
+                  SEC G-13,<br />
+                  NEAR POWER HOUSE,<br />
+                  ORANGI TOWN
+                </p>
+              </div>
+
+              <a
+                class="location-btn"
+                href="https://www.google.com/maps/search/?api=1&amp;query=Al-Habib+Banquet+(A)+Sec+G-13+Near+Power+House+Orangi+Town+Karachi"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span class="btn-icon">📍</span>
+                <span>VIEW LOCATION</span>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <!-- GALLERY SECTION -->
+        <section id="gallery" class="gallery section reveal">
+          <div class="wrapper section-inner">
+            <div class="section-heading centered">
+              <p class="eyebrow">Precious Moments</p>
+              <h2>OUR GALLERY</h2>
+            </div>
+
+            <div class="gallery-grid">
+              <figure class="gallery-item tall" data-src="assets/images/gallery-1.svg" data-alt="Bisma &amp; Sarim Islamic Arch Monogram">
+                <img src="assets/images/gallery-1.svg" alt="Bisma &amp; Sarim Islamic Arch Monogram" loading="lazy" />
+                <div class="gallery-overlay">
+                  <span class="zoom-icon">🔍</span>
+                  <span class="gallery-title">Royal Monogram</span>
+                </div>
+              </figure>
+
+              <figure class="gallery-item" data-src="assets/images/gallery-2.svg" data-alt="Islamic Star Arabesque Geometric Pattern">
+                <img src="assets/images/gallery-2.svg" alt="Islamic Star Arabesque Geometric Pattern" loading="lazy" />
+                <div class="gallery-overlay">
+                  <span class="zoom-icon">🔍</span>
+                  <span class="gallery-title">Islamic Pattern</span>
+                </div>
+              </figure>
+
+              <figure class="gallery-item" data-src="assets/images/gallery-3.svg" data-alt="Floral Ornamental Mandala Artwork">
+                <img src="assets/images/gallery-3.svg" alt="Floral Ornamental Mandala Artwork" loading="lazy" />
+                <div class="gallery-overlay">
+                  <span class="zoom-icon">🔍</span>
+                  <span class="gallery-title">Floral Ornament</span>
+                </div>
+              </figure>
+
+              <figure class="gallery-item wide" data-src="assets/images/gallery-4.svg" data-alt="Bisma &amp; Sarim Couple Celebration Banner">
+                <img src="assets/images/gallery-4.svg" alt="Bisma &amp; Sarim Couple Celebration Banner" loading="lazy" />
+                <div class="gallery-overlay">
+                  <span class="zoom-icon">🔍</span>
+                  <span class="gallery-title">Wedding Celebration</span>
+                </div>
+              </figure>
+
+              <figure class="gallery-item" data-src="assets/images/gallery-5.svg" data-alt="Royal Nikah Mubarak Emblem">
+                <img src="assets/images/gallery-5.svg" alt="Royal Nikah Mubarak Emblem" loading="lazy" />
+                <div class="gallery-overlay">
+                  <span class="zoom-icon">🔍</span>
+                  <span class="gallery-title">Nikah Ceremony</span>
+                </div>
+              </figure>
+
+              <figure class="gallery-item" data-src="assets/images/gallery-6.svg" data-alt="Naeems Family Welcoming Ornament">
+                <img src="assets/images/gallery-6.svg" alt="Naeems Family Welcoming Ornament" loading="lazy" />
+                <div class="gallery-overlay">
+                  <span class="zoom-icon">🔍</span>
+                  <span class="gallery-title">Naeems Family</span>
+                </div>
+              </figure>
+            </div>
+          </div>
+        </section>
+
+        <!-- WELCOME / FAMILY SECTION -->
+        <section class="family section reveal">
+          <div class="wrapper section-inner">
+            <div class="family-card card-surface">
+              <p class="eyebrow">Warmest Hospitality</p>
+              <h2>WE LOOK FORWARD TO CELEBRATING WITH YOU</h2>
+              <p class="family-callout">Awaiting to welcome</p>
+              <p class="family-name">Naeems Family</p>
+              <div class="gold-ornament-line" aria-hidden="true">❖ ❖ ❖</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- RSVP SECTION -->
+        <section id="rsvp" class="rsvp section reveal">
+          <div class="wrapper section-inner">
+            <div class="section-heading centered narrow">
+              <p class="eyebrow">Confirm Your Presence</p>
+              <h2>WE WOULD LOVE TO HAVE YOU WITH US</h2>
+              <p class="subheading">Kindly confirm your attendance</p>
+            </div>
+
+            <form id="rsvpForm" class="rsvp-form card-surface" action="https://formsubmit.co/azherkaleem698@gmail.com" method="POST" novalidate>
+              <input type="hidden" name="_captcha" value="false" />
+              <input type="hidden" name="_template" value="table" />
+              <input type="hidden" name="_subject" value="New Wedding RSVP Invitation Confirmation" />
+
+              <div class="field">
+                <label for="fullName">FULL NAME *</label>
+                <input id="fullName" name="Name" type="text" placeholder="e.g. Tariq Mehmood" required />
+              </div>
+              <div class="field">
+                <label for="guests">NUMBER OF GUESTS *</label>
+                <input id="guests" name="Guests" type="number" min="1" max="20" placeholder="e.g. 2" required />
+              </div>
+              <div class="field">
+                <label for="city">LOCATION / CITY *</label>
+                <input id="city" name="City" type="text" placeholder="e.g. Karachi" required />
+              </div>
+              <div class="field full-width">
+                <label for="message">MESSAGE / BLESSINGS</label>
+                <textarea id="message" name="Message" rows="4" placeholder="Share your warm prayers and blessings for Bisma &amp; Sarim..."></textarea>
+              </div>
+              
+              <button class="submit-btn" type="submit">
+                <span class="btn-text">CONFIRM ATTENDANCE</span>
+              </button>
+              
+              <div id="formStatus" class="form-status" aria-live="polite"></div>
+            </form>
+          </div>
+        </section>
+      </main>
+
+      <!-- FINAL CLOSING SECTION & FOOTER -->
+      <footer class="closing section reveal">
+        <div class="wrapper section-inner">
+          <div class="closing-card">
+            <p class="closing-name">Bisma &amp; Sarim</p>
+            <p class="closing-blessing">May Allah bless this beautiful union with love, happiness and barakah.</p>
+            <div class="closing-divider" aria-hidden="true">❖</div>
+            <p class="closing-date">12 • 10 • 2026</p>
+            <p class="closing-signoff">With love, Naeems Family</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- FLOATING MUSIC CONTROL BUTTON -->
+    <button class="music-toggle" id="musicToggle" type="button" aria-label="Toggle background music">
+      <span class="music-icon">🎵</span>
+      <span class="music-waves" aria-hidden="true">
+        <span></span>
+        <span></span>
+        <span></span>
+      </span>
+      <span class="music-text">MUSIC</span>
+    </button>
+
+    <!-- LIGHTBOX MODAL FOR GALLERY -->
+    <div id="lightbox" class="lightbox" aria-hidden="true" role="dialog" aria-label="Gallery Image Viewer">
+      <button class="lightbox-close" id="lightboxClose" type="button" aria-label="Close image viewer">&times;</button>
+      <div class="lightbox-content">
+        <img id="lightboxImage" src="" alt="" />
+        <p id="lightboxCaption" class="lightbox-caption"></p>
+      </div>
+    </div>
+
+    <!-- AUDIO PLAYER -->
+    <audio id="musicPlayer" preload="auto">
+      <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3" type="audio/mpeg" />
+    </audio>
+
+    <!-- Script -->
+    <script src="js/script.js"></script>
+  </body>
+</html>

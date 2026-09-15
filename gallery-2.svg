@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F3E3A5" />
+      <stop offset="50%" stop-color="#E5C76B" />
+      <stop offset="100%" stop-color="#C9A227" />
+    </linearGradient>
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="75%">
+      <stop offset="0%" stop-color="#121212" />
+      <stop offset="100%" stop-color="#050505" />
+    </radialGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="100%" height="100%" fill="url(#bgGrad)" />
+  <rect x="25" y="25" width="750" height="750" fill="none" stroke="url(#goldGrad)" stroke-width="2" opacity="0.6" />
+
+  <!-- Geometric 12-point Islamic Star Arabesque -->
+  <g transform="translate(400, 400)" stroke="url(#goldGrad)" stroke-width="1.5" fill="none" filter="url(#glow)">
+    <circle r="340" stroke-width="1" opacity="0.3"/>
+    <circle r="320" stroke-width="2"/>
+    <circle r="260" stroke-width="1" opacity="0.5"/>
+    <circle r="180" stroke-width="1.5"/>
+
+    <!-- Concentric Star Polygons -->
+    <polygon points="0,-280 140,-242 242,-140 280,0 242,140 140,242 0,280 -140,242 -242,140 -280,0 -242,-140 -140,-242" opacity="0.4" />
+    <polygon points="0,-280 242,-140 242,140 0,280 -242,140 -242,-140" opacity="0.7" />
+    <polygon points="140,-242 280,0 140,242 -140,242 -280,0 -140,-242" opacity="0.7" />
+
+    <!-- Inner Rosette -->
+    <circle r="90" fill="#050505" stroke="url(#goldGrad)" stroke-width="2"/>
+    <circle r="75" stroke-width="1" opacity="0.6"/>
+
+    <text x="0" y="10" font-family="'Amiri', 'Cormorant Garamond', serif" font-size="28" fill="url(#goldGrad)" text-anchor="middle">بسم الله</text>
+  </g>
+
+  <text x="400" y="730" font-family="'Cormorant Garamond', serif" font-size="24" letter-spacing="6" fill="url(#goldGrad)" text-anchor="middle">ISLAMIC WEDDING INVITATION</text>
+</svg>
